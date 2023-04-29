@@ -1,0 +1,46 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+}
+.post-img {
+    width: 70%;
+    margin: 15%;
+}
+.profile-img {
+    width: 20%;
+    border-radius: 50%;
+    padding: 1%;
+}
+input[id="com"]{
+  width:70%
+  
+}
+.profil-img-name {
+  display: flex;
+  align-items: center;
+}
+.comment-list {
+  list-style: none;
+  display: flex;  
+}
+.comment-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.left-side,.right-side {
+  padding: 5%;
+}
+.post,.comment,.comment-list {
+  padding: 2%;
+}
+.post-img {
+  border-radius: 10px;
+ }
+@media (max-width:738px) {
+ body {
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ 
+
+}
